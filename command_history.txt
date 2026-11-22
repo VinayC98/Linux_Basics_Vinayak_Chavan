@@ -1,0 +1,75 @@
+   50  pwd
+   51  sudo apt update
+   52  sudo apt install zip unzip wget git -y
+   53  clear
+   54  mkdir Linux_Basics_YourName
+   55  rm Linux_Basics_YourName
+   56  remove Linux_Basics_YourName
+   57  delet Linux_Basics_YourName
+   58  delete Linux_Basics_YourName
+   59  rmf Linux_Basics_YourName
+   60  rm -d Linux_Basics_YourName
+   61  ls
+   62  rm -d clip-watcher/
+   63  ls
+   64  clear
+   65  mkdir Linux_Basics_Vinayak_Chavan
+   66  ls
+   67  cd Linux_Basics_Vinayak_Chavan/
+   68  ls
+   69  clear
+   70  mkdir test_dir
+   71  ls
+   72  cd test_dir/
+   73  ls
+   74  touch example.txt
+   75  ls
+   76  mv example.txt renamed_example.txt
+   77  ls
+   78  clear
+   79  cat /etc/passwd
+   80  clear
+   81  head -n 5 /etc/passwd
+   82  clear
+   83  tail -n 5 /etc/passwd
+   84  clear
+   85  grep "root" /etc/passwd
+   86  clear
+   87  cd ..
+   88  ls
+   89  zip -r test_dir.zip test_dir
+   90  sudo apt install zip
+   91  zip -r test_dir.zip test_dir
+   92  ls
+   93  ls -l test_dir.zip 
+   94  clear
+   95  unzip test_dir.zip -d unzipped_dir
+   96  ls
+   97  ls -r unzipped_dir/
+   98  ls -r unzipped_dir
+   99  ls
+  100  cd unzipped_dir/
+  101  ls
+  102  cd test_dir/
+  103  ls
+  104  clear
+  105  cd ..
+  106  clear
+  107  ls
+  108  wget https://example.com/sample.txt
+  109  clear
+  110  wget https://www.gnu.org/licenses/gpl-3.0.txt
+  111  ls
+  112  ls -l gpl-3.0.txt 
+  113  clear
+  114  ls
+  115  touch secure.txt
+  116  ls -l secure.txt 
+  117  chmod 444 secure.txt 
+  118  ls -l secure.txt 
+  119  clear
+  120  export MY_VAR="Hello, Linux!"
+  121  echo $MY_VAR 
+  122  printenv MY_VAR
+  123  clear
+  124  history | tail -75 > command_history.txt
